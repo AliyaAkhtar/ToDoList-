@@ -1,0 +1,90 @@
+.todos-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.todo-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.todo-title::after{
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: white;
+    display: block;
+    margin: auto;
+}
+.todos-list{
+    width: 31%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.todo-card{
+    width: 100%;
+    height: auto;
+    color: white;
+    background: rgb(74, 116, 233);
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-right: 6px;
+}
+.todo-card .card-text{
+    margin: auto;
+}
+.icon-progress-todo{
+    background: rgb(250, 92, 118);
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.icon-trash-todo{
+    background: red;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.progress-card{
+    width: 100%;
+    height: auto;
+    color: white;
+    background: rgb(238, 15, 238);
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-right: 6px;
+}
+.progress-card .card-text{
+    margin: auto;
+}
+.icon-check-todo{
+    background: white;
+    color: green;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.completed-card{
+    width: 100%;
+    height: auto;
+    color: white;
+    background: #00b09b;
+    padding: 0px 5px;
+    border-radius: 5px;
+    margin-top: 3px;
+}

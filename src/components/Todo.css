@@ -1,0 +1,31 @@
+.form-todo{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-todo .form-control{
+    width: 87%;
+    height: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.form-todo .btn{
+    width: 10%;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    background: transparent;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+.form-todo .btn:hover{
+    background: white;
+    color: rgb(250, 92, 118);
+}
